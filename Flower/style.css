@@ -1,0 +1,143 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    background-color: #f9f9f9;
+}
+h2{
+    font-size: 32px;
+    font-weight: bold;
+    text-align: center;
+}
+
+/* Navigation Bar */
+nav {
+    display: flex;
+    justify-content: space-around;
+    background-color:rgb(80, 31, 9);
+    color: white;
+    padding: 15px;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+nav ul li {
+    display: inline;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+.contact img {
+    width: 50px;  
+    height: 50px; 
+    object-fit: contain; 
+}
+
+.logo img{
+    width: 50px;  
+    height: 50px; 
+    object-fit: contain; 
+}
+/* Hero Section */
+header {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 30px;
+    background: url('./assests/image\ 3.jpg') no-repeat center center/cover;
+    color: rgb(80, 31, 9);
+    padding: 100px 20px;
+}
+
+header button {
+    padding: 10px 20px;
+    margin: 10px;
+    background: rgb(80, 31, 9);
+    color: white;
+    border: none;
+    border-radius: 30px;
+    cursor: pointer;
+}
+
+header button :hover{
+    background-color: #520909;
+}
+
+/* Sections */
+section {
+    padding: 50px;
+    background: rgb(246, 228, 228);
+    color: #520909;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin: 20px;
+    border-radius: 10px;
+}
+
+.features{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+
+}
+.features img {
+    width: 80px;  
+    height: 80px; 
+    object-fit: contain; 
+}
+
+.features div {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.bouquet-list {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.bouquet {
+    background: white;
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.bouquet img {
+    width: 200px;
+    border-radius: 5px;
+}
+
+
+button {
+    background-color: #341804;
+    color: white;
+    padding: 10px 20px;
+    border: 2px solid transparent;
+    border-radius: 30px;
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.2);
+    transition: all 0.3s ease-in-out;
+  }
+  
+  button:hover {
+    border: 2px solid #c3ada0;
+    box-shadow: 4px 4px 15px rgba(172, 108, 108, 0.3);
+  }
+  
+  
+
+/* Footer */
+footer {
+    background: rgb(80, 31, 9);
+    color: white;
+    padding: 20px;
+}
